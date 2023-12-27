@@ -27,7 +27,7 @@ jobs:
       packages: write
 
     env:
-      RELEASE_VERSION: "${{ github.event.release.tag_name }}"
+      RELEASE_VERSION: "1.8.8"
       DOCKERHUB_REPO: "otel/demo"
       GHCR_REPO: "ghcr.io/dbado-sumologic/open-telemetry/demo"
 
