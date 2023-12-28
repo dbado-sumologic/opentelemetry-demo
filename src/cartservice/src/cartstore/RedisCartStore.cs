@@ -79,7 +79,7 @@ public class RedisCartStore : ICartStore
                 throw new ApplicationException("Wasn't able to connect to redis");
             }
 
-            _logger.LogInformation("Successfully connected to Redis");
+            _logger.LogInformation("Successfully connected to Redis v2");
             var cache = _redis.GetDatabase();
 
             _logger.LogDebug("Performing small test");

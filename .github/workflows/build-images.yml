@@ -27,7 +27,7 @@ jobs:
       packages: write
 
     env:
-      RELEASE_VERSION: "1.8.8"
+      RELEASE_VERSION: "1.8.9"
       DOCKERHUB_REPO: "otel/demo"
       GHCR_REPO: "ghcr.io/dbado-sumologic/open-telemetry/demo"
 
@@ -169,6 +169,6 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: ${{ inputs.push }}
           tags: |
-            ${{ env.GHCR_REPO }}:1.8.8-${{ matrix.file_tag.tag_suffix }}
+            ${{ env.GHCR_REPO }}:1.8.9-${{ matrix.file_tag.tag_suffix }}
           cache-from: type=gha
           cache-to: type=gha
