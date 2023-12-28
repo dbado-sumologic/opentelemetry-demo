@@ -169,7 +169,7 @@ public class RedisCartStore : ICartStore
 
     public async Task<Oteldemo.Cart> GetCartAsync(string userId)
     {
-        _logger.LogInformation("GetCartAsync called with userId={userId}", userId);
+        _logger.LogInformation("GetCartAsync v2 called with userId={userId}", userId);
 
         try
         {
