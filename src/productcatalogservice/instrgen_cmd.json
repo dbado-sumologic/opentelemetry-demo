@@ -1,0 +1,10 @@
+{
+ "ProjectPath": ".",
+ "FilePattern": "/testdata/basic",
+ "Cmd": "inject",
+ "Replace": "yes",
+ "EntryPoint": {
+  "Pkg": "main",
+  "FunName": "main"
+ }
+}
